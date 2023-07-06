@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://unpkg.com/rss-parser/dist/rss-parser.min.js"></script>
+</head>
 </head>
 <body>
     <header>
@@ -43,7 +45,6 @@
             </div>
         </div>
     </header>
-
     <section id="about" data-aos="fade-up">
         <div class="card" data-aos="fade-up">
             
@@ -61,8 +62,6 @@
                 <br>
         </div>
     </section>
-    
-    
 
     <section id="experience">
         <h2 data-aos="fade-up" style="margin-bottom: 5rem">Timeline</h2>
@@ -127,7 +126,7 @@
             <div class="timeline-item" data-aos="fade-up">
                 <span class="timeline-date">2018-2020</span>
                 <div class="timeline-content">
-                    <img src="images/davaonc.png" alt="Director of Technology job image" class="timeline-image">
+                    <img src="images/davaonc.png" alt="Director of Technology job image" class="timeline-image" style="margin-right: 24px">
                     <div>
                         <h4>Web Developer/Operations Lead</h4>
                         <h5>Dava Oncology</h5>
@@ -171,7 +170,21 @@
             
         </div>
     </section>
-
+    <section id="medium-articles">
+        <h2 data-aos="fade-down">My Developer Blog</h2>
+        <div class="article-grid">
+            <div class="article-card" data-aos="fade-up">
+                <div class="article-image-container">
+                    <img src="images/article1_image.png" alt="Article 1 Image">
+                </div>
+                <div class="article-info">
+                    <h3>Private YouTube API Fetcher</h3>
+                    <p>PrivateYouTubeSync is a Node.js application that enables us to fetch, save, and organize data from our organizations YouTube channel, including private and unlisted videos.</p>
+                    <a href="https://medium.com/@zac.bostick/private-youtube-api-fetcher-3459eb4e70b3">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="skills">
         <h2 data-aos="fade-up">Skills & Proficiencies</h2>
         <div class="skill-category" data-aos="fade-up">
@@ -477,7 +490,15 @@
                     <a href="https://members.intercollegiatepsychedelics.net/">View Project</a>
                 </div>
             </div>
-            
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="images/terminalshot.png" alt="Project 1 Image">
+                </div>
+                <div class="project-info">
+                    <h3>Private YouTube Sync</h3>
+                    <p>PrivateYouTubeSync is a tool designed to bypass the YouTube API restrictions on private and unlisted videos. It fetches data from your organization's own YouTube channel to display the contents in an app, even when the videos are private/unlisted.</p><a href="https://github.com/zac-bostick/PrivateYoutubeSync">View Project</a>
+                </div>
+            </div>
             <div class="project-card" data-aos="fade-up">
                 <div class="project-image-container">
                     <img src="images/scraper.png" alt="Project 1 Image">
