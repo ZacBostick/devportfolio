@@ -529,7 +529,19 @@ body {
 #socials .social-link:hover {
     color: #00665c; 
 }
-
+.social-link {
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid;  
+    border-radius: 50%;  /* Make it circle by setting it to 50% */
+    padding: 5px;  
+    margin: 1px;  
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;   /* Give a fixed width */
+    height: 40px;  /* Give a fixed height */
+}
 
 #link{
     text-decoration: none;
